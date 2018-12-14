@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700');
+
+*{
+    box-sizing: border-box;
+}
+
+.dw {
+    position: sticky;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 200vh;
+    width: 100%;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 40px;
+    background-image: url("sanantonio-skyline-source.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.text {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    list-style: none;
+    border-bottom: 0;
+    z-index: -1;
+
+}
+
+.text.hidden {
+    border-bottom: 5px solid black;
+
+}
+
+.text li {
+    display: inline-block;
+    float: left;
+    font-weight: 700;
+    font-size: 2.24em;
+    color: white;
+    -webkit-text-stroke: 0.3px black;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    max-width: 10em;
+    text-shadow: 2px 2px 5px black;
+}
+.text.hidden li.spaced {
+    padding-left: 0;
+}
+.text li.spaced {
+    padding-left: 0.5em;
+}
+
+.text.hidden li.ghost {
+    opacity: 0;
+    max-width: 0;
+}
+
+
+.data {
+    margin-top: -200px;
+    height: 325px;
+    width: 400px;
+    display: inline-block;
+    background-color: #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    opacity: 0.8;
+    filter: alpha(opacity=300);
+    /*padding: 15px;*/
+
+}
+.top{
+    text-align: center;
+    margin-top: 500px;
+    color: black;
+    align-content: center;
+    text-shadow: 3px 3px white;
+    text-emphasis: black;
+    font-family: 'Staatliches', cursive;
+
+
+
+}
+
+#map-canvas {
+    width: 85%;
+    height: 700px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    text-decoration: underline;
+}
+h6 {
+    text-decoration: underline;
+}
+#search {
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 500px;
+    text-align: center;
+}
+#howto{
+    color: whitesmoke;
+    align-content: center;
+    text-shadow: 3px 3px black;
+    text-emphasis: black;
+    font-family: 'Staatliches', cursive;
+    font-size: 60px;
+}
+#searchButton {
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+    background-color: #0fb784;
+
+    border: none;
+}
+#place {
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}
