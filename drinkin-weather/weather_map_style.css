@@ -44,12 +44,12 @@ body {
     display: inline-block;
     float: left;
     font-weight: 700;
-    font-size: 2.24em;
+    font-size: 2.20em;
     color: white;
     -webkit-text-stroke: 0.3px black;
     opacity: 1;
     transition: all 0.5s ease-in-out;
-    max-width: 10em;
+    max-width: 100%;
     text-shadow: 2px 2px 5px black;
 }
 .text.hidden li.spaced {
