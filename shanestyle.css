@@ -1,0 +1,319 @@
+body{
+    background-size: cover;
+    background: url("shaneimages/Shane_Moyer14063_hires.jpg") no-repeat;
+}
+
+#desktopDisplay{
+    display: none;
+}
+
+
+.blue-bg{
+    align-content:center ;
+    width: 100%;
+    height: 550px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)) no-repeat;
+}
+
+#spotify{
+    width: 50%;
+    height: auto;
+    margin-top: 30px;
+}
+#instagram{
+    width: 50%;
+    height: auto;
+    margin-top: 23px;
+}
+#twitter{
+    width: 53%;
+    height: auto;
+}
+#appleMusic{
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+}
+
+
+@media screen and (min-width: 420px) {
+    body{
+        background-size: cover;
+        background: url("shaneimages/tabletshane.jpeg") no-repeat fixed;
+    }
+
+    #desktopDisplay{
+        display: none;
+    }
+
+
+    .blue-bg{
+        align-content:center ;
+        width: 100%;
+        height: 550px;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)) no-repeat;
+    }
+
+    #spotify{
+        width: 50%;
+        height: auto;
+        margin-top: 5px;
+    }
+    #instagram{
+        width: 50%;
+        height: auto;
+        margin-top: 23px;
+    }
+    #twitter{
+        width: 53%;
+        height: auto;
+    }
+    #appleMusic{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    #desktopDisplay{
+        display: block;
+    }
+
+    html {
+        margin-left: -10px;
+    }
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+    }
+
+    .blue-bg {
+        position: fixed;
+        background-image: url("shaneimages/Shane_Moyer14149_hires.jpg");
+        background-size: cover;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 0;
+        display: block;
+    }
+
+    .white-bg {
+        position: absolute;
+        top: 2350px;
+        background-color: rgba(0, 0, 0, 0.9);
+        min-height: 200px;
+        margin: 210px 0px;
+        width: 100%;
+        height: auto;
+        transform: skewY(-5deg);
+    }
+
+    /*MUSIC*/
+    .white-bg2 {
+        position: absolute;
+        top: 650px;
+        background-color: rgba(90, 210, 235, 0.3);
+        min-height: 200px;
+        margin: 210px 0px;
+        width: 100%;
+        height: auto;
+        transform: skewY(-5deg);
+        border-top: 3px solid cyan;
+        border-bottom: 3px solid steelblue;
+    }
+
+    /*MUSIC VIDEOS*/
+    .white-bg3 {
+        position: absolute;
+        top: 1700px;
+        background-color: rgba(90, 210, 235, 0.3);
+        min-height: 200px;
+        margin: 210px 0px;
+        width: 100%;
+        height: auto;
+        transform: skewY(-5deg);
+        border-top: 3px solid cyan;
+        border-bottom: 3px solid steelblue;
+    }
+
+    .white-bg4 {
+        position: absolute;
+        top: 1950px;
+        background-color: rgba(0, 0, 0, 0.3);
+        min-height: 200px;
+        margin: 210px 0px;
+        width: 100%;
+        height: auto;
+        transform: skewY(-5deg);
+    }
+
+    .content {
+        position: absolute;
+        top: 2330px;
+        margin: 250px 10vw;
+        max-width: 100%;
+        background-color: transparent;
+        transform: skewY(-5deg);
+    }
+
+    .content2 {
+        position: absolute;
+        top: 510px;
+        margin: 250px 10vw;
+        max-width: 100%;
+        background-color: transparent;
+        transform: skewY(-5deg);
+        font-size: 75px;
+        color: red;
+        margin-left: 25px;
+    }
+
+    .content3 {
+        position: absolute;
+        top: 1555px;
+        margin: 250px 10vw;
+        max-width: 100%;
+        background-color: transparent;
+        transform: skewY(-5deg);
+        margin-left: 25px;
+    }
+
+    .content4 {
+        position: absolute;
+        top: 2275px;
+        margin: 250px 10vw;
+        max-width: 100%;
+        background-color: transparent;
+        transform: skewY(-5deg);
+        margin-left: 25px;
+    }
+
+    #bio {
+        font-size: 20px;
+        font-family: SansSerif;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    #bioT {
+        font-family: Montserrat;
+        font-size: 40px;
+        text-align: center;
+        color: whitesmoke;
+        padding: 50px
+    }
+
+    .h1 {
+        font-family: "Arial Black";
+        font-size: 150px;
+    }
+
+    /* unvisited link */
+    a:link {
+        color: white;
+        text-shadow: 3px 3px #0094C6;
+        text-decoration: none;
+    }
+
+    /* visited link */
+    a:visited {
+        color: white;
+        text-shadow: 3px 3px #0094C6;
+        text-decoration: none;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: #EF798A;
+        text-shadow: 3px 3px white;
+        text-decoration: none;
+    }
+
+    /* selected link */
+    a:active {
+        color: #EF798A;
+        text-shadow: 3px 3px white;
+        text-decoration: none;
+    }
+
+    #fbook {
+        height: 110px;
+        width: 110px;
+        display: inline-block;
+        float: right;
+        margin-top: 205px;
+        margin-right: -105px;
+    }
+
+    #twitter {
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        float: right;
+        margin-top: 295px;
+        margin-right: -95px;
+    }
+
+    #spotify {
+        height: 90px;
+        width: 90px;
+        display: inline-block;
+        float: right;
+        margin-top: 480px;
+    }
+
+    #instagram {
+        height: 80px;
+        width: 80px;
+        display: inline-block;
+        float: right;
+        margin-top: 390px;
+        margin-right: -85px;
+    }
+
+    #video {
+        float: left;
+        margin-left: 80px;
+        margin-top: -50px;
+        box-shadow: -2px -5px 5px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    #video2 {
+        float: right;
+        margin-left: 40px;
+        margin-top: -50px;
+        box-shadow: -2px -5px 5px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    #spots1 {
+        float: left;
+        margin-left: 130px;
+    }
+
+    #spots2 {
+        float: right;
+        margin-left: 40px;
+    }
+
+    .sub-header {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+
+    #new-releases {
+        display: inline-block;
+    }
+}
+}
