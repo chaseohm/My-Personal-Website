@@ -1,6 +1,6 @@
 body{
     background-size: cover;
-    background: url("shaneimages/Shane_Moyer14063_hires.jpg") no-repeat;
+    background: url("shaneimages/tabletshane.jpeg") no-repeat;
 }
 
 #desktopDisplay{
@@ -99,7 +99,7 @@ body{
 
     .blue-bg {
         position: fixed;
-        background-image: url("shaneimages/newbackground.png");
+        background-image: url("shaneimages/Shane_Moyer14149_hires.jpg");
         background-size: cover;
         top: 0;
         height: 100%;
